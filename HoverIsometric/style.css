@@ -60,27 +60,27 @@ html, body{
 .animate_one a:hover span:nth-child(4){
     z-index: 1000;
     background-color: rgb(0, 0, 0);
-    transform: translate(10px, -10px);
+    transform: translate(30px, -30px);
     opacity: .6;
 }
 
 .animate_one a:hover span:nth-child(3){
     z-index: 1000;
     background-color: rgb(0, 0, 0);
-    transform: translate(30px, -30px);
+    transform: translate(20px, -20px);
     opacity: .5;
 }
 
 .animate_one a:hover span:nth-child(2){
     z-index: 1000;
     background-color: rgb(0, 0, 0);
-    transform: translate(20px, -20px);
+    transform: translate(10px, -10px);
     opacity: .4;
 }
 
 .animate_one a:hover span:nth-child(1){
     z-index: 1000;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     transform: translate(0px, -0px);
     opacity: .3;
 }
