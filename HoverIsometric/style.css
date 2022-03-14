@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #242125;
+}
+
+.animate_one{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotate(-25deg) skew(25deg);
+}
+
+.animate_one a{
+    width: 7rem;
+    height: 7rem;
+    font-size: 1.5rem;
+    margin: 3rem;
+    color: rgba(255, 255, 255, 0.295);
+    position: relative;
+    transform: 1s;
+}
+
+.animate_one a:hover{
+    color: white;
+}
+
+.animate_one a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+    font-size: 3.3rem;
+}
+
+.animate_one a span:nth-child(1){
+     background-color: rgb(0, 0, 0);
+}
+
+.animate_one a:hover span:nth-child(5){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+.animate_one a:hover span:nth-child(4){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(10px, -10px);
+    opacity: .6;
+}
+
+.animate_one a:hover span:nth-child(3){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(30px, -30px);
+    opacity: .5;
+}
+
+.animate_one a:hover span:nth-child(2){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(20px, -20px);
+    opacity: .4;
+}
+
+.animate_one a:hover span:nth-child(1){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(0px, -0px);
+    opacity: .3;
+}
+
+/*  */
+
+/* segunda animação */
+
+
+.animate_Two{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotate(0deg) skew(0deg);
+}
+
+.animate_Two a{
+    width: 7rem;
+    height: 7rem;
+    font-size: 1.5rem;
+    margin: 3rem;
+    color: rgba(255, 255, 255, 0.295);
+    position: relative;
+    transform: 1s;
+}
+
+.animate_Two a:hover{
+    color: white;
+}
+.animate_Two a span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .6s;
+    font-size: 3.3rem;
+}
+
+.animate_Two a span:nth-child(1){
+     background-color: rgb(0, 0, 0);
+}
+
+.animate_Two a:hover span:nth-child(5){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(14px, -14px);
+    opacity: 1;
+}
+
+.animate_Two a:hover span:nth-child(4){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(12px, -12px);
+    opacity: .6;
+}
+
+.animate_Two a:hover span:nth-child(3){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(10px, -10px);
+    opacity: .5;
+}
+
+.animate_Two a:hover span:nth-child(2){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(8px, -8px);
+    opacity: .4;
+}
+
+.animate_Two a:hover span:nth-child(1){
+    z-index: 1000;
+    background-color: rgb(0, 0, 0);
+    transform: translate(6px, -6px);
+    opacity: .3;
+}
