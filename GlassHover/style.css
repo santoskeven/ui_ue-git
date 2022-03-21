@@ -120,7 +120,7 @@ html, body{
     .box_single{
         margin: 5rem 0rem;
         padding-top: 2rem;
-        width: 50%;
+        width: 80%;
     }
 
     .box_single:hover .glassEf{
