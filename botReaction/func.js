@@ -1,5 +1,7 @@
-const cont = document.getElementsByClassName('bot_one')
-    let target = document.querySelectorAll('.eye_c')
+const cont = document.getElementsByClassName('target')
+const target = document.querySelectorAll('.Move_C')
+
+console.log(cont)
 
     for(let i = 0; i < cont.length; i++){
         cont[i].addEventListener('mousemove', function(e){
@@ -8,7 +10,6 @@ const cont = document.getElementsByClassName('bot_one')
         
         })
     }
-
 
 
 function CapMove(e){
@@ -22,26 +23,27 @@ function CapMove(e){
     let rot = (radian * (180 / Math.PI) * -1) - 125;
     
     target[i].style.transform = "rotate("+ rot + "deg)";
- }
+
+}
 
 }
 
 
-const head = document.getElementsByClassName('heir')
-const mouth = document.getElementsByClassName('mouth')
+// const head = document.getElementsByClassName('heir')
+// const mouth = document.getElementsByClassName('mouth')
 
- for(let i = 0; i < head.length; i++){
+//  for(let i = 0; i < head.length; i++){
 
-    head[i].addEventListener('mouseenter', function(){
-        mouth[i].style.borderBottomLeftRadius = '1rem';
-        mouth[i].style.borderBottomRightRadius = '1rem';
-        mouth[i].style.height = '1.3rem';
-    })
+//     head[i].addEventListener('mouseenter', function(){
+//         mouth[i].style.borderBottomLeftRadius = '1rem';
+//         mouth[i].style.borderBottomRightRadius = '1rem';
+//         mouth[i].style.height = '1.3rem';
+//     })
     
-    head[i].addEventListener('mouseleave', function(){
-        mouth[i].style.borderBottomLeftRadius = '8rem';
-        mouth[i].style.borderBottomRightRadius = '8rem';
-        mouth[i].style.height = '1.5rem';
-    })
+//     head[i].addEventListener('mouseleave', function(){
+//         mouth[i].style.borderBottomLeftRadius = '8rem';
+//         mouth[i].style.borderBottomRightRadius = '8rem';
+//         mouth[i].style.height = '1.5rem';
+//     })
 
- }
+//  }
